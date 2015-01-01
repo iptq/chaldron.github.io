@@ -1,0 +1,36 @@
+<html>
+
+<head>
+    <title>Guess a Number</title>
+    <script LANGUAGE="JavaScript" type="text/javascript">
+        var num = Math.floor(Math.random() * 100) + 1;
+
+        function Guess() {
+
+            if (document.form.guess1.value < num)
+                document.form.hint.value = "Too low!";
+            if (document.form.guess1.value > num)
+                document.form.hint.value = "Too high!";
+            if (document.form.guess1.value == num) {
+                window.alert("Correct!");
+                location.reload();
+            }
+
+        }
+    </script>
+</head>
+
+<body>
+    <h1>Guess a Number</h1>
+    <hr>
+    <p>I'm thinking of a number between 1 and 100.</p>
+    <form NAME="form">
+        <input TYPE="text" SIZE=25 NAME="hint" VALUE="Enter your Guess." readonly="readonly">
+        <br>
+        <b>Guess:</b>
+        <input TYPE="text" NAME="guess1" SIZE="5">
+        <input TYPE="BUTTON" VALUE="Guess" onClick="Guess()">
+    </form>
+</body>
+
+</html>

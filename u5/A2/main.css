@@ -1,0 +1,39 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	background-color: #FFE047;
+	}
+#wrapper{
+	width: 648px;
+	height: 433px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #006619;
+	border-radius: 15px;
+	}
+#wrapper div img{
+	border-radius: 10px;
+	height: 200px;
+	width: 200px;
+	opacity: .8;
+	}
+#wrapper div img:hover{
+	border-radius:10px;
+	height:200px;
+	width:200px;
+	cursor:pointer;
+	opacity:1;
+	}
+.imgWrap{
+	width: 200px;
+	height: 200px;
+	padding: 3px;
+	border-radius: 13px;
+	background-color: #003300;
+	margin: 5px;
+	float: left;
+	}
+#instructions{
+		text-align:center;
+	}
