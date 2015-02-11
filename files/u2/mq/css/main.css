@@ -3,7 +3,71 @@
 /* CSS Document */
 
 @media only screen and (max-width: 550px) {
-/*mobile styles go here*/
+body {
+	background: rgba(169,3,41,1);
+background: -moz-linear-gradient(left, rgba(169,3,41,1) 0%, rgba(143,2,34,1) 44%, rgba(109,0,25,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(169,3,41,1)), color-stop(44%, rgba(143,2,34,1)), color-stop(100%, rgba(109,0,25,1)));
+background: -webkit-linear-gradient(left, rgba(169,3,41,1) 0%, rgba(143,2,34,1) 44%, rgba(109,0,25,1) 100%);
+background: -o-linear-gradient(left, rgba(169,3,41,1) 0%, rgba(143,2,34,1) 44%, rgba(109,0,25,1) 100%);
+background: -ms-linear-gradient(left, rgba(169,3,41,1) 0%, rgba(143,2,34,1) 44%, rgba(109,0,25,1) 100%);
+background: linear-gradient(to right, rgba(169,3,41,1) 0%, rgba(143,2,34,1) 44%, rgba(109,0,25,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', endColorstr='#6d0019', GradientType=1 );
+	min-width: 0px;
+}
+div {
+	padding-bottom: 50px;
+	text-align: center;
+}
+.container_12 {
+	margin-left: auto;
+	margin-right: auto;
+	width: 480px;
+}
+p {
+	font-family: Cantarell;
+	color: #FFFFFF;
+	text-decoration: none;
+	word-spacing: normal;
+	text-align: justify;
+	letter-spacing: 0;
+	line-height: 1.0em;
+	font-size: 1.6em;
+	-webkit-animation: fadein 1.5s; /* Safari, Chrome and Opera > 12.1 */
+	-moz-animation: fadein 1.5s; /* Firefox < 16 */
+	-ms-animation: fadein 1.5s; /* Internet Explorer */
+	-o-animation: fadein 1.5s; /* Opera < 12.1 */
+	animation: fadein 1.5s;
+}
+h1 {
+	font-family: 'Lucida Grande';
+	color: #FFFFFF;
+	text-decoration: none;
+	word-spacing: normal;
+	text-align: center;
+	letter-spacing: 0;
+	line-height: 1.5em;
+	font-size: 2.5em;
+	-webkit-animation: fadein 1.3s; /* Safari, Chrome and Opera > 12.1 */
+	-moz-animation: fadein 1.3s; /* Firefox < 16 */
+	-ms-animation: fadein 1.3s; /* Internet Explorer */
+	-o-animation: fadein 1.3s; /* Opera < 12.1 */
+	animation: fadein 1.3s;
+}
+h2 {
+	font-family: 'Lucida Grande';
+	color: #FFFFFF;
+	text-decoration: none;
+	word-spacing: normal;
+	text-align: center;
+	letter-spacing: 0;
+	line-height: 1.5em;
+	font-size: 1.7em;
+}
+.grid_1, .grid_2, .grid_3, .grid_4, .grid_5, .grid_6, .grid_7, .grid_8, .grid_9, .grid_10, .grid_11, .grid_12, .grid_13, .grid_14, .grid_15, .grid_16 {
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
 }
 
 @media only screen and (min-width: 551px) and (max-width: 939px) {
@@ -68,7 +132,6 @@ h2 {
 	font-size: 2.1em;
 }
 .grid_1, .grid_2, .grid_3, .grid_4, .grid_5, .grid_6, .grid_7, .grid_8, .grid_9, .grid_10, .grid_11, .grid_12, .grid_13, .grid_14, .grid_15, .grid_16 {
-	
 	margin-left: 10px;
 	margin-right: 10px;
 	margin-bottom: 30px;
