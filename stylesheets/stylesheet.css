@@ -1,3 +1,6 @@
+@media only screen and (min-width: 940px) {
+
+
 body {
 	background: rgba(255,255,255,1);
 background: -moz-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
@@ -153,3 +156,11 @@ opacity: 0;
 opacity: 1;
 }
 }
+
+}
+
+
+@media only screen and (max-width: 550px) {
+	
+	
+	
