@@ -135,6 +135,8 @@ margin-left: 0;
 	clear: none;
 	float: none;
 	margin-left: auto;
+	height: auto;
+	min-height: 0px;
 }
 #div1 {
 }
