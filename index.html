@@ -1,41 +1,194 @@
 <!DOCTYPE html>
-<html>
-<link rel="icon" 
-      type="image/png" 
-      href="fav.png">
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->  
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->  
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->  
 <head>
-<meta charset='utf-8'>
-<meta http-equiv="X-UA-Compatible" content="chrome=1">
-<meta name="description" content="Project Lucina : ">
-<title>Aditya's Index</title>
-<link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" />
-</head>
+    <title>Aditya's Portfolio</title>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Responsive HTML5 Website landing Page for Developers">
+    <meta name="author" content="3rd Wave Media">    
+    <link rel="shortcut icon" href="favicon.png">  
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'> 
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">   
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.css">
+    <!-- github acitivity css -->
+    <link rel="stylesheet" href="assets/plugins/github-activity/dist/github-activity-0.1.0.min.css">
+    <link rel="stylesheet" href="assets/plugins/github-activity/dist/octicons/octions.min.css">
+    
+    
+    <!-- Theme CSS -->  
+    <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    
+</head> 
+
 <body>
-<div class="container_12">
-  <div class="grid_12"> <img src="images/banner_dark.png"></div>
-  <div class="grid_6">
-    <h3>Unit 1</h3>
-    <hr>
-    <p>9 Essential Principals (<a href="files/u1/9Principals.pdf">PDF</a> | <a href="files/u1/9Principals.pptx">PPTX</a>)</p>
-    <p>960 Principals (<a href="files/u1/960/960GridActivity1.html">Act. 1</a> | <a href="files/u1/960/960GridActivity2.html">Act. 2</a>)</p>
-    <p><a href="files/u1/widget/index.html">Widget Activity</a></p>
-    <p>Image Gallery Challenge (<a href="files/u1/ig/index.html">Page</a> | <a href="https://docs.google.com/document/d/1E5g7-VziN8aNctbyKFX_7RTjYLEoJQWZcxZEVReCTxM/edit?usp=sharing">Document</a>)</p>
-  </div>
-  <div class="grid_12"> <img src="images/aa_small.png"> </div>
-  <div class=grid_12">
-    <h3>Unit 2</h3>
-    <hr>
-    <p><a href="files/u2/mq/index.html">Media Query</a></p>
-    <p><a href="files/u2/fg/index.html">Fluid Grid</a></p>
-  </div>
-  <div class="grid_6">
-    <h3>Unit 3</h3>
-    <hr>
-    <p><a href="files/u3/ts_sb/Taylor_Swift.apk">Taylor Swift Soundboard</a></p>
-    <p><a href="files/u3/flappyrado/Flappy_Rado.apk">Flappy Rado</a></p>
-    <p><a href="files/u3/grado/Grado.apk">Grado</a></p>
-    <p><a href="files/u3/coninsult/Coninsult.apk">Coninsult</a></p>
-  </div>
-</div>
+    <!-- ******HEADER****** --> 
+    <header class="header">
+        <div class="container">                       
+            <img class="profile-image img-responsive pull-left" src="assets/images/profile.png" alt="Aditya" />
+            <div class="profile-content pull-left">
+                <h1 class="name">Aditya M</h1>
+                <h2 class="desc">Software Developer</h2>
+                <p>&nbsp;</p>   
+                <ul class="social list-inline">
+                    <li><a href="https://github.com/Chaldron/"><i class="fa fa-github-alt"></i></a></li>                  
+                    <li class="last-item"><a href="https://www.youtube.com/channel/UC6xR3A12eY7JDr1WiN2RAMw"><i class="fa fa-hacker-news"></i></a></li>                 
+                </ul> 
+            </div><!--//profile-->
+                       
+        </div><!--//container-->
+    </header><!--//header-->
+    
+    <div class="container sections-wrapper">
+        <div class="row">
+            <div class="primary col-md-8 col-sm-12 col-xs-12">
+                <section class="about section">
+                    <div class="section-inner">
+                        <h2 class="heading">About Me</h2>
+                        <div class="content">
+                            <p>Hi! My name is Aditya. I enjoy programming (specifically scripting in Python/Bash) and web development. I'm also a huge fan of video games, especially Nintendo's franchises.</p>
+                         
+                        </div><!--//content-->
+                    </div><!--//section-inner-->                 
+                </section><!--//section-->
+    
+               
+                
+             <section class="projects section">
+             <div class="section-inner">
+             <h2 class="heading">My Works</h2>
+             <div class="content">
+             <div class="item">
+             <h3 class="title"><a href="works/wd2/index.html">Web Development II</a></h3>
+             <p class="summary">Continuation of studies from Web Development 1 by applying modern web development techniques to create highly responsive web 2.0 sites that maximize user experience. Usage of the jQuery framework to manipulate web content and create sophisticated transitions and effects. New Internet technologies explored such as app writing. Design and development mobile apps that take advantage of mobile device technology such as the accelerometer, GPS, SMS, and camera functions.</p>
+             <h3 class="title"><a href="works/wd1/index.html">Web Development I</a></h3>
+             <p class="summary">An introductory experience in website design using project based coursework. Development of the technical and creative skills needed to plan, create, and publish interactive web pages. Projectsinclude the creation and manipulation of text, graphics, animations, and interactive content through the use of HTML, CSS, JavaScript, Photoshop, Dreamweaver, and Flash.</p>
+             <h3 class="title"><a href="https://github.com/Chaldron/Python_Projects">Python</a></h3>
+             <p class="summary">Simple Python scripts intended for self-appreciation of the language. These scripts can be used for basic programming concepts and data maniuplation.</p>
+             <h3 class="title"><a href="https://github.com/Chaldron/Java_Projects">Java</a></h3>
+             <p class="summary">Java applications written in order to learn the language. These serve no purpose outside of honing technique.</p>
+         	</div></div></section>  
+               
+                
+               
+                
+            </div><!--//primary-->
+            <div class="secondary col-md-4 col-sm-12 col-xs-12">
+                 
+                
+                <aside class="skills aside section">
+                    <div class="section-inner">
+                        <h2 class="heading">Skills</h2>
+                        <div class="content">
+                            <p class="intro">
+                                </p>
+                            
+                            <div class="skillset">
+                               
+                                <div class="item">
+                                    <h3 class="level-title">Python<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="">Decent</span></h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="60%">
+                                        </div>                                      
+                                    </div><!--//level-bar-->                                 
+                                </div><!--//item-->
+                                
+                 
+                                
+                                <div class="item">
+                                    <h3 class="level-title">HTML5 & CSS3<span class="level-label">Proficient</span></h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="50%">
+                                        </div>                                      
+                                    </div><!--//level-bar-->                                 
+                                </div><!--//item-->
+                                
+                                <div class="item">
+                                    <h3 class="level-title">Java & C<span class="level-label">Learning</span></h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="10%">
+                                        </div>                                      
+                                    </div><!--//level-bar-->                                 
+                                </div><!--//item-->
+                                
+                                
+                            </div>              
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                 
+                </aside><!--//section-->
+                
+              
+                
+               
+                            
+             
+                
+              
+                
+                <aside class="list music aside section">
+                    <div class="section-inner">
+                        <h2 class="heading">Favourite coding music</h2>
+                        <div class="content">
+                            <ul class="list-unstyled">
+                                <li><i class="fa fa-headphones"></i> <a href="https://www.youtube.com/watch?v=Z6FPJOgfCkc">Galaxy Supernova</a></li>
+                                <li><i class="fa fa-headphones"></i> <a href="https://www.youtube.com/watch?v=jG1cIlM1juw">Flower Power</a></li>
+                                <li><i class="fa fa-headphones"></i> <a href="https://www.youtube.com/watch?v=uXfxVm3V55I">Holler</a></li>
+                                <li><i class="fa fa-headphones"></i> <a href="https://www.youtube.com/watch?v=JPBtIsoKTxk">World's End Dancehall</a></li>
+                            </ul>
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </aside><!--//section-->
+                
+                
+                
+                <aside class="credits aside section">
+                    <div class="section-inner">
+                        <h2 class="heading">Credits</h2>
+                        <div class="content">
+                            <ul class="list-unstyled">
+                                <li><a href="http://getbootstrap.com/" target="_blank"><i class="fa fa-external-link"></i> Bootstrap 3.2</a></li>
+                                <li><a href="http://fortawesome.github.io/Font-Awesome/" target="_blank"><i class="fa fa-external-link"></i> FontAwesome 4.1</a></li>
+                                <li><a href="http://jquery.com/" target="_blank"><i class="fa fa-external-link"></i> jQuery</a></li>
+                                </ul>
+                            
+                            <hr/>
+                            
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </aside><!--//section-->
+              
+            </div><!--//secondary-->    
+        </div><!--//row-->
+    </div><!--//masonry-->
+    
+    <!-- ******FOOTER****** --> 
+    <footer class="footer">
+        <div class="container text-center">
+                <small class="copyright"></small>
+        </div><!--//container-->
+    </footer><!--//footer-->
+ 
+    <!-- Javascript -->          
+    <script type="text/javascript" src="assets/plugins/jquery-1.11.2.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>    
+    <script type="text/javascript" src="assets/plugins/jquery-rss/dist/jquery.rss.min.js"></script> 
+    <!-- github activity plugin -->
+    <script type="text/javascript" src="assets/plugins/github-activity/dist/mustache/mustache.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/github-activity/dist/github-activity-0.1.0.min.js"></script>
+    <!-- custom js -->
+    <script type="text/javascript" src="assets/js/main.js"></script>            
 </body>
-</html>
+</html> 
+

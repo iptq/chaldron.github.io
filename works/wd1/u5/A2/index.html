@@ -1,0 +1,109 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Javascript Project #1</title>
+    <link href="main.css" rel="stylesheet" type="text/css" />
+    <script>
+        function chicken() {
+            document.getElementById("audio").innerHTML = "<embed src='sound/chicken.mp3' hidden='true' autostart='true' loop='false' />";
+            var guess;
+            guess = prompt('What kind of animal am I?');
+            if (guess.toUpperCase() == "CHICKEN") {
+                alert("Correct!");
+            } else {
+                alert("Sorry, no.");
+            }
+        }
+
+        function cow() {
+            document.getElementById("audio").innerHTML = "<embed src='sound/cow.mp3' hidden='true' autostart='true' loop='false' />";
+            var guess;
+            guess = prompt('What kind of animal am I?');
+            if (guess.toUpperCase() == "COW") {
+                alert("Correct!");
+            } else {
+                alert("Sorry, no.");
+            }
+        }
+
+        function goat() {
+            document.getElementById("audio").innerHTML = "<embed src='sound/goat.mp3' hidden='true' autostart='true' loop='false' />";
+            var guess;
+            guess = prompt('What kind of animal am I?');
+            if (guess.toUpperCase() == "GOAT") {
+                alert("Correct!");
+            } else {
+                alert("Sorry, no.");
+            }
+        }
+
+        function lamb() {
+            document.getElementById("audio").innerHTML = "<embed src='sound/lamb.mp3' hidden='true' autostart='true' loop='false' />";
+            var guess;
+            guess = prompt('What kind of animal am I?');
+            if (guess.toUpperCase() == "LAMB") {
+                alert("Correct!");
+            } else {
+                alert("Sorry, no.");
+            }
+
+        }
+
+        function pig() {
+            document.getElementById("audio").innerHTML = "<embed src='sound/pig.mp3' hidden='true' autostart='true' loop='false' />";
+            var guess;
+            guess = prompt('What kind of animal am I?');
+            if (guess.toUpperCase() == "PIG") {
+                alert("Correct!");
+            } else {
+                alert("Sorry, no.");
+            }
+        }
+
+        function turkey() {
+            document.getElementById("audio").innerHTML = "<embed src='sound/turkey.mp3' hidden='true' autostart='true' loop='false' />";
+            var guess;
+            guess = prompt('What kind of animal am I?');
+            if (guess.toUpperCase() == "TURKEY") {
+                alert("Correct!");
+            } else {
+                alert("Sorry, no.");
+            }
+        }
+    </script>
+</head>
+
+<body>
+
+    <div id="instructions">
+        <img src="images/omdfarm.png" width="350" height="290" />
+        <h2>Click on an animal to begin!</h2>
+    </div>
+
+    <div id="wrapper">
+        <div class="imgWrap">
+            <img src="images/chicken.jpg" alt="Chicken" onClick="chicken()" />
+        </div>
+        <div class="imgWrap">
+            <img src="images/cow.jpg" alt="Cow" onClick="cow()" />
+        </div>
+        <div class="imgWrap">
+            <img src="images/goat.jpg" alt="Goat" onClick="goat()" />
+        </div>
+        <div class="imgWrap">
+            <img src="images/lamb.jpg" alt="Lamb" onClick="lamb()" />
+        </div>
+        <div class="imgWrap">
+            <img src="images/pig.jpg" alt="Pig" onClick="pig()" />
+        </div>
+        <div class="imgWrap">
+            <img src="images/turkey.jpg" alt="Turkey" onClick="turkey()" />
+        </div>
+    </div>
+
+    <div id="audio"></div>
+</body>
+
+</html>
