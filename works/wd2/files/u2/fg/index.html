@@ -8,7 +8,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Fluid Grid Layout</title>
+<title>Untitled Document</title>
 <link href="boilerplate.css" rel="stylesheet" type="text/css">
 <link href="main.css" rel="stylesheet" type="text/css">
 <!-- 
@@ -26,25 +26,25 @@ Do the following if you're using your customized build of modernizr (http://www.
 <![endif]-->
 <script src="respond.min.js"></script>
 <style>
-.layoutDivs {
-	height: 50px;
-	background-color: #666666;
-	margin-bottom: 10px;
-}
+	.layoutDivs {
+		height:50px;
+		background-color:#666666;
+margin-bottom:10px;
+	}
 </style>
 </head>
 <body>
 <div class="gridContainer clearfix">
-  <div id="header" class="layoutDivs">Header</div>
-  <div id="main" class="layoutDivs">Main Content</div>
-  <div id="sidebar1" class="layoutDivs">Sidebar 1</div>
-  <div id="sidebar2" class="layoutDivs">Sidebar 2</div>
-  <br>
-  <div id="content1" class="layoutDivs">Content 1</div>
-  <div id="content2" class="layoutDivs">Content 2</div>
-  <div id="content3" class="layoutDivs">Content 3</div>
-  <div id="content4" class="layoutDivs">Content 4</div>
-  <div id="footer" class="layoutDivs">Footer</div>
+  <div class="fluid header layoutDivs">Header</div>
+  <div class="fluid main layoutDivs">Main</div>
+  <div class="fluid sidebar1 layoutDivs">Sidebar</div>
+  <div class="fluid sidebar2 layoutDivs">Sidebar</div>
+  <div class="fluid content1 layoutDivs">Content</div>
+  <div class="fluid content2 layoutDivs">Content</div>
+  <div class="fluid content3 layoutDivs">Content</div>
+  <div class="fluid content4 layoutDivs">Content</div>
+  <div class="fluid footer layoutDivs">Footer</div>
+  
   
 </div>
 </body>
