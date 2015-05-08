@@ -1,0 +1,14 @@
+body {
+	background: #EEEEEE;
+}
+
+.logo-image {
+	margin-top: 20px;
+    max-width: 40%;
+    height: auto;
+    width: auto\9; /* ie8 */
+}
+
+.icon {
+	margin-bottom: 10px;
+}
