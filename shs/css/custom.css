@@ -8,3 +8,12 @@ body {
     height: auto;
     width: auto\9; /* ie8 */
 }
+.documents{
+	font-size: 2.3em;
+}
+.tab-container {
+	width: 50%;
+}
+.tab-heading {
+	text-align: center;
+}
