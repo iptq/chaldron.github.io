@@ -12,8 +12,11 @@ body {
 	font-size: 2.3em;
 }
 .tab-container {
-	width: 50%;
+	width: 47%;
+	display: inline-block;
+	margin-right: 2%;
 }
 .tab-heading {
 	text-align: center;
+	
 }
