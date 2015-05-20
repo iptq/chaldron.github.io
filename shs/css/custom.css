@@ -12,11 +12,22 @@ body {
 	font-size: 2.3em;
 }
 .tab-container {
-	width: 47%;
-	display: inline-block;
-	margin-right: 2%;
+	width: 40%;
+	display: inline-block;;
+	margin-right: 3%;
+	margin-left: 5%;
 }
 .tab-heading {
 	text-align: center;
 	
+	
 }
+@media only screen 
+and (min-width : 320px) 
+and (max-width : 991px) {
+.tab-container {
+	width: 100%;
+	display: inline-block;
+	
+}
+		
