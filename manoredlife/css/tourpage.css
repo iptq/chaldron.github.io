@@ -1,0 +1,42 @@
+body {
+	background-color: #EEEEEE;
+}
+
+h1 {
+	color: black;
+	font-family: "Trebuchet MS";
+	font-feature-settings: "'liga' 1";
+	font-kerning: auto;
+	font-style: normal;
+	font-size: 3em;
+	font-weight: 400;
+	letter-spacing: 0;
+	line-height: 1.5em;
+	text-align: center;
+	text-decoration: none;
+	text-transform: none;
+	word-spacing: 0;
+
+}
+img {
+display: block;
+margin-left: auto;
+margin-right: auto;
+
+}
+
+p {
+		color: black;
+	font-family: "Trebuchet MS";
+	font-feature-settings: "'liga' 1";
+	font-kerning: auto;
+	font-style: normal;
+	font-size: 1em;
+	font-weight: 400;
+	letter-spacing: 0;
+	line-height: 1.5em;
+	text-align: center;
+	text-decoration: none;
+	text-transform: none;
+	word-spacing: 0;
+}
